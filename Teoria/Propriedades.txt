@@ -1,0 +1,66 @@
+SELETORES********************
+
+h1/p: usando a tag do HTML, mas usando esse método será estilizada todas as tags seleciona do html 
+ exemplo: tag <p> todos os paragrafos do html tera a mesma regra de estilo aplicada.
+
+class: criando uma classe você limita onde e quando colocar a estilização
+ exemplo: <p class="paragrafos-vermelhos"> ... </p>
+ No CSS você seleciona a classe criada usando um (.) Ex: .paragrafos-vermelhos
+
+id: criando um ID você limita onde e quando colocar a estilização Porém  ele é utilizado um por página.
+ exemplo: <p id="paragrafos-vermelhos"> ... </p>
+ No CSS você seleciona o ID criado usando um (#) Ex: #paragrafos-vermelhos
+
+FONTES************************
+
+font-family: Define qual fonte será usada no texto.
+ Exemplo: font-family: Arial, sans-serif;
+ (Primeiro tenta Arial, se não tiver, usa uma fonte genérica sem serifa.)
+
+font-size:Controla o tamanho da fonte.
+ Exemplo: font-size: 16px;
+ (Tamanho padrão é geralmente 16px, mas pode mudar pra maior ou menor.)
+
+fonte-style: Deixa o texto em itálico ou estilo normal.
+  Exemplo: font-style: italic;
+ (Usado pra dar aquela "inclinadinha" no texto.)
+
+font-weight: Controla a espessura da letra (mais grossa ou fina).
+ Exemplo: font-weight: bold;
+ (Pode usar "bold" para negrito ou valores numéricos tipo 400, 700...)
+
+TEXT**********
+text-align:Alinha o texto dentro do elemento (esquerda, centro, direita, justificado).
+ Exemplo: text-align: center;
+ (Muito usado em títulos ou parágrafos pra deixar o visual alinhado.)
+
+text-decoration: Adiciona enfeites no texto (sublinhado, linha sobre o texto etc.).
+ Exemplo: text-decoration: underline;
+ (Quer um texto sublinhado? É aqui.)
+
+ underline → sublinha o texto.
+
+ overline → cria uma linha acima do texto.
+
+ line-through → risca o texto no meio (como quando algo está cancelado).
+
+ none → remove qualquer decoração (tipo tirar o sublinhado de um link, por exemplo).
+
+text-indent: Cria um recuo na primeira linha do parágrafo.
+ Exemplo: text-indent: 30px;
+ (Fica como aquele espacinho no começo de parágrafos em livros.)
+
+text-transform:Transforma o texto em maiúsculas, minúsculas ou capitalizado.
+ Exemplo: text-transform: uppercase;
+ (Quer todo o texto em CAIXA ALTA? Usa essa propriedade.)
+
+ uppercase → deixa todo o texto em MAIÚSCULO.
+
+ lowercase → deixa todo o texto em minúsculo.
+
+ capitalize → deixa a primeira letra de cada palavra maiúscula.
+
+
+ 
+
+
